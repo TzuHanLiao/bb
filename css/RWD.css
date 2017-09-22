@@ -1,0 +1,121 @@
+/***************** 以下為手機平板*************** */
+ @media screen and (max-width: 1200px) {
+/* header縮小成50高 */
+.navbar-default .navbar-brand.logo {
+    font-size: 25px;
+    margin-top: 0;
+    line-height: 41px;
+}
+  .navbar {
+    top: 0;
+    height: 50px;
+    float: right;
+    margin-top: 0px;
+    background: none;
+  }
+  .navbar-nav {
+    float: right;
+    margin-top: 0px;
+  }
+    .navbar-default .navbar-nav>li>a {
+        color: #000;
+    }
+    .nav > li > a {
+        padding: 10px 10px;
+    }
+  /* .armyPic{
+    float: right;
+    width: 45px;
+  } */
+    .bootstrapslider {
+        display: none;
+        position: absolute;
+    }
+    .blockwarp {
+        position: relative;
+        left: 0;
+        width: 94%;
+        margin: 0% 3%;
+        top: 109px;
+        margin-bottom: 70px;
+    }
+    .navbar:before {
+        bottom: -6px;
+        left: 0px;
+    }
+ }
+ @media screen and (max-width: 1000px) {
+    .blockwarp{
+
+    }
+    /* 手機選單出現 */
+    .navbar-collapse{
+        background-color: rgba(255, 255, 255, 0.9);
+        border-bottom: 1px solid #000;
+    }
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+        margin: 7.5px 0;
+    }
+    .navbar-collapse{
+        margin: 0 -15px;
+        padding: 0 0;
+    }
+    .dropdown-menu{
+        text-align: center;
+    }
+    .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 30px;
+    }
+    .navbar-default .navbar-brand.logo {
+        color: #676767;
+        line-height: 45px;
+        padding: 0;
+        margin-top: 30px;
+        font-size: 25px;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .armyPic{
+        display: none;
+    }
+    .armyblock{
+        width: 50%;
+        float: left;
+    }
+    .armycard.large {
+        min-height: auto;
+    }
+}
+@media screen and (max-width: 992px) {
+    .sepline {
+        border-right: 0px solid #a0a0a0;
+    }
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 750px) {
+    .blockwarp {
+        width: 90%;
+        margin: 0 auto 70px auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    .armyblock{
+        width: 100%;
+        float: left;
+    }
+    .armycard {
+        height: initial;
+        padding-bottom: 20px;
+    }
+    .armyblock {
+        height: initial;
+    }
+
+}
+@media screen and (max-width: 460px) {
+
+}
